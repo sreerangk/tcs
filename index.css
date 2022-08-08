@@ -109,10 +109,18 @@
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
     width: 416px;
     color:#000;
+    margin-left: 36px;
+  
 }
-.cardimg{
+.cardimg2{
     
     padding: 51px;
     border: none;
 }
-
+.card-title2,.pera2{
+    background-color: #000;
+}
+.cardimg2:hover{
+    transform: scale(1.1);
+  }
+  
