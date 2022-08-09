@@ -12,6 +12,7 @@
     background-color: rgb(0, 0, 0);
     
 }
+
 .firstimg{
     padding-top: 23px;
 }
@@ -52,13 +53,19 @@
 
 }
 .col {
+    
     margin-top: 100px;
     font-size: 14px;
 }
 .text1{
     color: #fff;
 }
-
+.rounded-circle{
+    transition: transform .2s; 
+}
+.rounded-circle:hover{
+    transform: scale(1.5);
+}
 /* carousel */
 
 .main-body{
@@ -106,7 +113,7 @@
     height: 700px;
 }
 .card2{
-    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    box-shadow: 0 0 12px rgba(33, 33, 33, .2);
     width: 416px;
     color:#000;
     margin-left: 36px;
@@ -120,7 +127,62 @@
 .card-title2,.pera2{
     background-color: #000;
 }
-.cardimg2:hover{
-    transform: scale(1.1);
+.card2:hover{
+    box-shadow: 0 0 11px rgba(210, 198, 198, 0.2);
   }
   
+
+
+  /* footer */
+
+.footer-main {
+    background-color: rgb(47, 42, 42);
+    height: 400px;
+   
+}
+
+
+.footer-row{
+    display: flex;
+   
+}
+li,a{
+    line-height: 2.2;
+}
+ul{
+    list-style: none;
+}
+
+.footer1{
+    font-size: 18px;
+    color: #fff;
+
+}
+.footer1{
+    margin-left: 77px;
+}
+/* footer hover heffect */
+a {
+    color: #fff;
+   
+    
+    display: inline-block;
+    
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
