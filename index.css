@@ -71,11 +71,25 @@
 .main-body{
     margin-top: -3px;
 }
-.carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
+
+
+.carousel-caption{
+    position: absolute;
+    top: 20%;
+    font-size: 4rem;
+    text-align: left;  
+
 }
+.button-blue{
+    border-radius: 10px;
+    margin-top: 116px;
+    width: 218px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 1.063rem;
+}
+
 
  /* second body secton */
 
@@ -170,19 +184,5 @@ a {
     
     position: relative;
   }
-  a:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
-  a:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
+
+
